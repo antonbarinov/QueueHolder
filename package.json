@@ -1,0 +1,24 @@
+{
+  "name": "queue-holder",
+  "version": "1.0.0",
+  "description": "Nice queue holder",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "author": {
+    "name": "Barinov Anton"
+  },
+  "keywords": [
+    "queue"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antonbarinov/QueueHolder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antonbarinov/QueueHolder/issues"
+  },
+  "homepage": "https://github.com/antonbarinov/QueueHolder"
+}
