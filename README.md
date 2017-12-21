@@ -95,7 +95,7 @@ Output:
 ```
 
 ## API
-- .hold() - hold queue. This function return Promise.
-- .release() - release our queue and let next job do some stuff.
-- .sleep(seconds = 1) - sleep for `seconds` seconds. This function return Promise.
+- .hold() - hold queue. This function returns `Promise`.
+- .release() - release our queue and let next job do some stuff. Returns `false` if nothing to release, else returns `true`.
+- .sleep(seconds = 1) - sleep for `seconds` seconds. This function returns `Promise`.
 - .inQueue() - how much tasks in queue.
