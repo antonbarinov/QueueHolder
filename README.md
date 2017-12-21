@@ -98,3 +98,4 @@ Output:
 - .hold() - hold queue. This function return Promise.
 - .release() - release our queue and let next job do some stuff.
 - .sleep(seconds = 1) - sleep for `seconds` seconds. This function return Promise.
+- .inQueue() - how much tasks in queue.
