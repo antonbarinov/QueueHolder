@@ -36,6 +36,10 @@ class QueueHolder {
             }, seconds * 1000);
         });
     }
+    
+    inQueue() {
+        return this.__queue.length;
+    }
 }
 
 module.exports = QueueHolder;
