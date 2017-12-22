@@ -23,8 +23,10 @@ class QueueHolder {
     release() {
         if (this.__queue.length) {
             this.__queue.shift()(true);
+            if (!this.__queue.length) this.__busy = false;
             return true;
-        } else  {
+        } else {
+            if (!this.__queue.length) this.__busy = false;
             return false;
         }
     }
@@ -36,7 +38,7 @@ class QueueHolder {
             }, seconds * 1000);
         });
     }
-    
+
     inQueue() {
         return this.__queue.length;
     }
