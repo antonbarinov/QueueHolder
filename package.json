@@ -1,6 +1,6 @@
 {
   "name": "queue-holder",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Nice queue holder",
   "main": "index.js",
   "dependencies": {},
